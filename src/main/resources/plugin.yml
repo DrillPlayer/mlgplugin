@@ -1,0 +1,20 @@
+name: MLGKonzept
+version: 1.0
+main: de.drillplayer.mlg.Main
+api-version: 1.16
+
+commands:
+  mlg:
+    description: "Start MLG-Mode"
+    usage: /<command>
+    permission: mlg.mlg
+
+  mlggui:
+    description: "Open MLG GUI"
+    usage: /<command>
+    permission: mlg.gui
+
+  stats:
+    description: "Show MLG Stats"
+    usage: /<command>
+    permission: mlg.stats
